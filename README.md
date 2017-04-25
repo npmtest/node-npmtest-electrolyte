@@ -1,4 +1,7 @@
-# test coverage for  [electrolyte (v0.4.0)](https://github.com/jaredhanson/electrolyte#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-electrolyte.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electrolyte) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electrolyte.svg)](https://travis-ci.org/npmtest/node-npmtest-electrolyte)
+# npmtest-electrolyte
+
+#### basic test coverage for  [electrolyte (v0.4.0)](https://github.com/jaredhanson/electrolyte#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-electrolyte.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-electrolyte) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-electrolyte.svg)](https://travis-ci.org/npmtest/node-npmtest-electrolyte)
+
 #### Elegant dependency injection for Node.js.
 
 [![NPM](https://nodei.co/npm/electrolyte.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/electrolyte)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-electrolyte/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-electrolyte/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-electrolyte/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-electrolyte/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electrolyte/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electrolyte/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-electrolyte/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-electrolyte/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-electrolyte/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-electrolyte/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-electrolyte/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-electrolyte/build/coverage.html/index.html)
 
@@ -101,7 +104,8 @@
     "scripts": {
         "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
