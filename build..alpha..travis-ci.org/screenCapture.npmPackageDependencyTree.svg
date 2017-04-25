@@ -6,8 +6,8 @@
 <tspan x="10" y="58">node_modules</tspan>
 <tspan x="10" y="74">└─┬ electrolyte@0.4.0 </tspan>
 <tspan x="10" y="90">  ├── canonical-path@0.0.2 </tspan>
-<tspan x="10" y="106">  ├─┬ debug@2.6.3 </tspan>
-<tspan x="10" y="122">  │ └── ms@0.7.2 </tspan>
+<tspan x="10" y="106">  ├─┬ debug@2.6.4 </tspan>
+<tspan x="10" y="122">  │ └── ms@0.7.3 </tspan>
 <tspan x="10" y="138">  ├── depd@1.1.0 </tspan>
 <tspan x="10" y="154">  ├─┬ promise@7.1.1 </tspan>
 <tspan x="10" y="170">  │ └── asap@2.0.5 </tspan>
